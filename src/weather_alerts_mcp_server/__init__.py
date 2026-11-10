@@ -1,2 +1,3 @@
-def main() -> None:
-    print("Hello from weather-alerts-mcp-server!")
+from .server import main, mcp
+
+__all__ = ["main", "mcp"]
